@@ -1,0 +1,11 @@
+<h3>
+  <a [href]="product.link">
+    {{ product.name }}
+  </a>
+</h3>
+<app-prod-item [product]="product"> </app-prod-item>
+<button
+  (click)="share('https://t.me/share/url?url=' + [product.link] + '&text=' + [product.name])"
+>
+  Share
+</button>

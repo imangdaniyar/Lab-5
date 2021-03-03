@@ -1,0 +1,9 @@
+div img{
+  width: 300px;
+}
+.product{
+  width: 450px;
+  background-color: #d1d1d1;
+  border-radius: 15px;
+  padding: 1px 15px;
+}
